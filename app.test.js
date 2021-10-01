@@ -27,7 +27,7 @@ describe('CREATE request', () => {
 });
 
 // UNIT TEST THE PRODUCT BUILDER
-describe('Unit Tests', () => {
+describe('Unit Testers', () => {
 
     test('product object builder', () => {
         // TEST IN HERE
