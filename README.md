@@ -1,4 +1,5 @@
-<h1>REST API (Guide)
+<h1>REST API (Guide)</h1>
+
 To install the REST API first of all install Node by entering the following command in a bash terminal:
 `<npm install>`
 Once completed you can start the application in the terminal with:
