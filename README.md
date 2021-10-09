@@ -25,7 +25,7 @@ Once completed you can start the application in the terminal with:
 
 Open a second BASH session (the first will be running the app listening on the port you specified) and enter any of the following $curl commands below to make requests over the API.
 
-<b>Note:</> You can also use Postman as an alternative to CURL to inject custom requests and view the response. Notes on how to do this will be added in a future update.
+<b>Note:</b> You can also use Postman as an alternative to CURL to inject custom requests and view the response. Notes on how to do this will be added in a future update.
 
 The app has four core operations.
 
