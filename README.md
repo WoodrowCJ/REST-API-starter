@@ -11,8 +11,8 @@ To install the REST API first of all install Node by entering the following comm
 <h3>Required modules</h3>
 You will additionally need the following modules:
 
-* Express
-* Jest
+* Express 
+* Jest (to manage the tests)
 
 Once completed you can start the application in the terminal with:
 `npm start` which will return a message similar to API Listening on http://localhost:8080
