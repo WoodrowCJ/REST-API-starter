@@ -1,8 +1,6 @@
-FROM node:12.18.1
-WORKDIR /app
-COPY ["package.json", "package-lock.json", "./"]
-RUN npm install --production
+FROM node:14-alpine
 COPY . .
-CMD ["node", "start.js"]
+RUN npm install
+RUN npm install nodemon
 EXPOSE 8080
-ENTRYPOINT 
+ENTRYPOINT ["npm", "start"]
