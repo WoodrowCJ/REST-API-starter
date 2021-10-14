@@ -40,12 +40,12 @@ describe('CREATE request', () => {
 describe('Unit Test', () => {
     let testStub = { // Create an object to be the test stub to check against the builder
         name: "garage",
-        description: "bike",
+        description: "car",
         price: 999.99
     };
 
     test('product object builder', () => {
-        expect(productBuilder("garage", "bike", 999.99)).toMatchObject(testStub); // validate productBuilder against the testStub variables
+        expect(productBuilder("garage", "car", 999.99)).toMatchObject(testStub); // validate productBuilder against the testStub variables
     });
 
 });
